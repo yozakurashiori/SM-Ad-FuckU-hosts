@@ -1,6 +1,15 @@
+#————SM广告丟那吗hosts————
+#版本：2.7
+#更新日期：250520
+#规则数：4960
+
+#主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
+#订阅：https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts
+
 
 0.0.0.0 localhost
 ::1 ip6-localhost
+
 
 
 #———————社•交•类———————
