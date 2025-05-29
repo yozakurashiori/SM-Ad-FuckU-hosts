@@ -1,7 +1,7 @@
 #————SM广告丟那吗hosts————
 #版本：2.7
-#更新日期：250520
-#规则数：4960
+#更新日期：250529
+#规则数：4886
 
 #主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
 #订阅：https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts
@@ -10,6 +10,16 @@
 0.0.0.0 localhost
 ::1 ip6-localhost
 
+
+#————————测试区————————
+#0.0.0.0 api.m.jd.com  #京东更新弹窗，副作用未知，应该有点大。
+0.0.0.0 appdownload.xianyu.alibaba-inc.com  #闲鱼更新？
+
+0.0.0.0 res.openinstall.com
+0.0.0.0 update0.qquanquan.com  #韩小圈更新？
+#糖豆(广场舞)片头广告测试
+0.0.0.0 creative.medproad.com
+0.0.0.0 qcwx.medproad.com
 
 
 #———————社•交•类———————
@@ -210,17 +220,6 @@
 0.0.0.0 ad.lofter.com
 0.0.0.0 ad.mh.163.com
 0.0.0.0 yaolu.mh.163.com
-#知乎(广告照样干不掉)
-0.0.0.0 sugar.zhihu.com
-0.0.0.0 zhihu-analytics.zhihu.com
-0.0.0.0 api.zhihu.com
-0.0.0.0 appcloud.zhihu.com
-0.0.0.0 datahub.zhihu.com
-0.0.0.0 lens.zhihu.com
-0.0.0.0 m-cloud.zhihu.com
-0.0.0.0 mqtt.zhihu.com
-0.0.0.0 mqtt-internal-public.zhihu.com
-0.0.0.0 zhihu-web-analytics.zhihu.com
 
 
 #———财经•投资•理财•股市类———
@@ -1433,7 +1432,7 @@
 0.0.0.0 tangram-config.gdt.qq.com
 #下载？
 0.0.0.0 c.gj.qq.com
-0.0.0.0 c.pc.qq.com
+#0.0.0.0 c.pc.qq.com  QQ群链接安全中转页无法直接点开
 0.0.0.0 download.sj.qq.com
 0.0.0.0 t.sj.qq.com
 0.0.0.0 ws.sj.qq.com
@@ -2660,73 +2659,10 @@
 0.0.0.0 tapi.apkpure.net  #APKpure广告图
 0.0.0.0 t.apkpure.net
 
-#Spotify
-0.0.0.0 adeventtracker.spotify.com
-0.0.0.0 adlab.spotify.com
-0.0.0.0 ads-akp.spotify.com
-0.0.0.0 ads-fa.spotify.com
-0.0.0.0 ads-sp-ash.cdn.spotify.com
-0.0.0.0 ads-sp-lon.cdn.spotify.com
-0.0.0.0 analytics.spotify.com
+#Spotify(音频广告去不掉)
 0.0.0.0 ads.spotify.com
-0.0.0.0 assets.spotify.com
-0.0.0.0 audio-ak-spotify-com.akaimaized.net
-0.0.0.0 audio-ak.spotify.com
-0.0.0.0 audio-ak.spotify.com.eip.akadns.net
-0.0.0.0 audio-akp.spotify.com
-0.0.0.0 audio-cf.spotify.com
-0.0.0.0 audio-ec.spotify.com
-0.0.0.0 audio-fab.spotify.com
-0.0.0.0 audio-fac-spotify.com
-0.0.0.0 audio-gc.spotify.com
-0.0.0.0 audio-sp-lon.spotify.com
-0.0.0.0 audio-sp-sto.spotify.com
-0.0.0.0 audio2.spotify.com
-0.0.0.0 beta.spotify.map.fastly.net
-0.0.0.0 crashdump.ciqe-gslb.spotify.com
-0.0.0.0 crashdump.spotify.com
-0.0.0.0 gew1.ap.spotify.com
-0.0.0.0 heads-ak.spotify.com
-0.0.0.0 heads-akp.spotify.com
-0.0.0.0 heads-cf.spotify.com
-0.0.0.0 heads-ec.spotify.com
-0.0.0.0 heads-fa.spotify.com
-0.0.0.0 heads-fab.spotify.com
-0.0.0.0 heads-fac.spotify.com
-0.0.0.0 ipv4.scdnco.spotify.map.fastly.net
-0.0.0.0 jefes-ec.spotify.com
-0.0.0.0 links.spotify.com
-0.0.0.0 log.spotify.com
-0.0.0.0 log2.spotify.com
-0.0.0.0 lon6-accesspoint-a33.lon6.spotify.com
-0.0.0.0 partner-service-testing.spotify.com
-0.0.0.0 partner-service.spotify.com
-0.0.0.0 payment-callback.spotify.com
-0.0.0.0 pci.spotify.com
-0.0.0.0 pixel.spotify.com
-0.0.0.0 prod.spotify-heads.map.fastlylb.net
-0.0.0.0 prod.spotify.map.fastlylb.net
-0.0.0.0 prod.spotify.map.fastly.net
-0.0.0.0 spotify-desktop.com
-0.0.0.0 sto3-accesspoint-a88.sto3.spotify.net
-0.0.0.0 sto3.spotify.com
-0.0.0.0 upgrade.spotify.com
-0.0.0.0 v4-only.eip-ntt.audio-ak.spotify.com.akahost.net
-0.0.0.0 video-akp-cdn-spotify-com.akamaized.net
-0.0.0.0 video-fa-b.cdn.spotify.com
-0.0.0.0 video-fa.cdn.spotify.com
-0.0.0.0 weblb-wg.gslb.spotify.com
-0.0.0.0 www.audio2.spotify.com
-0.0.0.0 www.spotify-desktop.com
-0.0.0.0 audio-fa.scdn.co
-0.0.0.0 audio-gc.scdn.co
-0.0.0.0 heads-fa.scdn.co
-0.0.0.0 jefes-fa.scdn.co
-0.0.0.0 mp3ad.scdn.co
-0.0.0.0 quicksilver.scdn.co
-0.0.0.0 u.scdn.co
-0.0.0.0 upgrade.scdn.co
-0.0.0.0 video-fa.scdn.co
+0.0.0.0 adstudio-assets.scdn.co
+0.0.0.0 enduser.adsrvr.org
 
 #UC
 0.0.0.0 applog.uc.cn
@@ -5202,7 +5138,7 @@
 0.0.0.0 apmplus.volces.com
 0.0.0.0 mssdk.volces.com  #火山引擎
 0.0.0.0 neptune-api.volces.com
-#0.0.0.0 gator.volces.com  #kimi智能助手没网，然而放行一次之后再禁却没事
+0.0.0.0 gator.volces.com  #kimi智能助手v2.1.0左右首次运行没网，2.1.3之后没事了。
 0.0.0.0 tab.volces.com  #250115测试
 0.0.0.0 tls-cn-beijing.volces.com
 0.0.0.0 vod-license-b.volccdn.com
@@ -5241,6 +5177,7 @@
 0.0.0.0 sdk.fliduo.cn  #杭州众简
 0.0.0.0 adt.cpatrk.net
 0.0.0.0 cloud.cpatrk.net
+0.0.0.0 tdsdk.cpatrk.net
 0.0.0.0 v2.reachmax.cn  #加和科技
 0.0.0.0 api.banyunjuhe.com  #般芸聚合
 0.0.0.0 cdn.banyunjuhe.com
@@ -5354,7 +5291,7 @@
 0.0.0.0 pic.fastapi.net  #传奇私服网站
 0.0.0.0 ad-track.fliggy.com  #飞猪的
 0.0.0.0 advert.mafengwo.cn  #马蜂窝的
-0.0.0.0 apk-upgrade.qingteng-inc.com
+0.0.0.0 apk-upgrade.qingteng-inc.com  #青藤之恋更新？
 0.0.0.0 xladapi.izuiyou.com
 0.0.0.0 api-ad.kajicam.com
 0.0.0.0 api.ad.yipinread.com
