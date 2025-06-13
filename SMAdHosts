@@ -1,7 +1,7 @@
 #————SM广告丟那吗hosts————
-#版本：2.7
-#更新日期：250529
-#规则数：4886
+#版本：2.8
+#更新日期：250613
+#规则数：4916
 
 #主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
 #订阅：https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts
@@ -10,6 +10,16 @@
 0.0.0.0 localhost
 ::1 ip6-localhost
 
+#FCM推送
+108.177.125.188 alt8-mtalk.google.com  #台湾
+142.251.170.188 alt7-mtalk.google.com #TW
+74.125.200.188 alt6-mtalk.google.com #SG
+142.251.10.188 alt5-mtalk.google.com #JP
+142.251.12.188 alt4-mtalk.google.com #JP
+142.250.107.188 mtalk.google.com #US
+142.250.115.188 alt3-mtalk.google.com #US
+142.250.152.188 alt2-mtalk.google.com #US
+192.178.131.188 alt1-mtalk.google.com #US
 
 #————————测试区————————
 #0.0.0.0 api.m.jd.com  #京东更新弹窗，副作用未知，应该有点大。
@@ -20,6 +30,7 @@
 #糖豆(广场舞)片头广告测试
 0.0.0.0 creative.medproad.com
 0.0.0.0 qcwx.medproad.com
+0.0.0.0 mapdownload.autonavi.com  #高德地图更新弹窗
 
 
 #———————社•交•类———————
@@ -95,6 +106,8 @@
 0.0.0.0 a6-remad.qm989.com  #底部横幅？
 #0.0.0.0 mkt.wtzw.com  #备用开屏
 0.0.0.0 qm-ab.wtzw.com  #开屏，这两条都能干掉空白的摇一摇界面。
+0.0.0.0 ad-drs-ipv6.52qumao.com
+0.0.0.0 api-adx.52qumao.com  #v7.73(可能更早)发现新增广告，新开屏广告见优比客思
 
 #起点开屏广告(①)，误伤精选_漫画_小编精选和周冠军的封面图，影响超小。
 0.0.0.0 bossaudioandcomic-1252317822.image.myqcloud.com
@@ -457,8 +470,8 @@
 0.0.0.0 docerad.wps.cn
 0.0.0.0 update.thread0.com  #自定义水印相机更新？
 #百度输入法上传你输入了什么，副作用云联想词加载不出来。
-0.0.0.0 udpolimenew.baidu.com
-0.0.0.0 udpolimeok.baidu.com
+#0.0.0.0 udpolimenew.baidu.com
+#0.0.0.0 udpolimeok.baidu.com
 
 
 #———————其•他———————
@@ -606,6 +619,7 @@
 0.0.0.0 s.qd.qingting.fm
 0.0.0.0 s.qd.qingtingfm.com
 0.0.0.0 adlaunch.qtfm.cn
+0.0.0.0 ad-cdn.qtfm.cn
 
 #1905电影网
 0.0.0.0 afp.m1905.com
@@ -2393,10 +2407,19 @@
 0.0.0.0 p5-ad.adkwai.com
 0.0.0.0 p6-ad.adkwai.com
 0.0.0.0 p66-ad.adkwai.com
+0.0.0.0 p1-ff.adkwai.com
 0.0.0.0 p1-lm.adkwai.com
 0.0.0.0 p2-lm.adkwai.com
+0.0.0.0 p3-lm.adkwai.com
+0.0.0.0 p4-lm.adkwai.com
+0.0.0.0 p5-lm.adkwai.com
+0.0.0.0 p6-lm.adkwai.com
 0.0.0.0 p1-yx.adkwai.com
 0.0.0.0 p2-yx.adkwai.com
+0.0.0.0 p3-yx.adkwai.com
+0.0.0.0 p4-yx.adkwai.com
+0.0.0.0 p5-yx.adkwai.com
+0.0.0.0 p6-yx.adkwai.com
 0.0.0.0 open.e.kuaishou.com
 0.0.0.0 open.e.kuaishou.cn
 0.0.0.0 adukwai.com
@@ -2926,7 +2949,9 @@
 0.0.0.0 b2-data.ads.heytapmobi.com
 0.0.0.0 stg-data.ads.heytapmobi.com  #安装界面广告
 0.0.0.0 sms.ads.heytapmobi.com  #短信和拨号广告
-0.0.0.0 icosa.coloros.com  #Realme应用增强服务_安装软件后上传包名
+0.0.0.0 icosa.coloros.com  #据说是Realme应用增强服务_安装软件后上传包名
+0.0.0.0 ibrowser.feeds.heytapmobi.com  #天气_精彩推荐
+
 #VIVO
 0.0.0.0 adlog.vivo.com.cn
 0.0.0.0 adreq.vivo.com.cn
@@ -5124,6 +5149,16 @@
 0.0.0.0 market.oceanengine.com
 0.0.0.0 ad.oceanengine.com
 0.0.0.0 www.oceanengine.com
+#优比客思(七猫小说开屏广告用)
+0.0.0.0 dsp-creative.ubixioe.com
+0.0.0.0 e-u1.ubixioe.com
+0.0.0.0 entry.ubixioe.com
+0.0.0.0 md-cfg-u1.ubixioe.com
+0.0.0.0 md-data-u1.ubixioe.com
+0.0.0.0 sdk-data.ubixioe.com
+0.0.0.0 tower.ubixioe.com
+0.0.0.0 tx-cfg-u1.ubixioe.com
+0.0.0.0 tx-data-u1.ubixioe.com
 
 
 #各种乱七八糟的广告商、广告联盟
@@ -5206,9 +5241,6 @@
 0.0.0.0 ad.huazirc.com
 0.0.0.0 adtracker.medproad.com
 0.0.0.0 api.th.wanzjhb.com
-0.0.0.0 entry.ubixioe.com  #优比客思
-0.0.0.0 sdk-data.ubixioe.com
-0.0.0.0 tower.ubixioe.com
 0.0.0.0 nav.cn.ronghub.com
 0.0.0.0 stats.cn.ronghub.com
 0.0.0.0 datacollector-drcn.dt.hicloud.com
@@ -5260,7 +5292,7 @@
 0.0.0.0 xyz.bid-algorix.cn
 0.0.0.0 portal.toushibao.com #透视宝追踪
 0.0.0.0 adsdkapi.dxys.pro  #付米联盟
-0.0.0.0 adx-data.yfanads.com  #酷友说是作业精灵的
+0.0.0.0 adx-data.yfanads.com  #酷友说是作业精灵的、步道乐跑的
 0.0.0.0 ads-drcn.platform.hihonorcloud.com  #华为云的
 0.0.0.0 android-sdk.zhangyuyidong.cn
 0.0.0.0 ads.adfunlink.com #抓自韩小圈
