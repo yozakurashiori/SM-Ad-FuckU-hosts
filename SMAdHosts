@@ -1719,7 +1719,7 @@
 0.0.0.0 sp0.baidu.com
 0.0.0.0 qapm.baidu.com
 0.0.0.0 fclog.baidu.com
-0.0.0.0 sofire.baidu.com  #百度慧推
+#0.0.0.0 sofire.baidu.com  #百度慧推,误伤贴吧lite的一键签到
 0.0.0.0 tcbox.baidu.com
 0.0.0.0 browserkernel.baidu.com
 0.0.0.0 hijack.baidu.com
