@@ -1,7 +1,7 @@
 #————SM广告丟那吗hosts————
 #版本：2.8
-#更新日期：250613
-#规则数：4916
+#更新日期：250702
+#规则数：4967
 
 #主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
 #订阅：https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts
@@ -9,6 +9,8 @@
 
 0.0.0.0 localhost
 ::1 ip6-localhost
+
+
 
 #FCM推送
 108.177.125.188 alt8-mtalk.google.com  #台湾
@@ -21,16 +23,14 @@
 142.250.152.188 alt2-mtalk.google.com #US
 192.178.131.188 alt1-mtalk.google.com #US
 
+203.107.60.254 web-pro2.123952.com  #123云盘下载解析(临时用)
+
 #————————测试区————————
 #0.0.0.0 api.m.jd.com  #京东更新弹窗，副作用未知，应该有点大。
 0.0.0.0 appdownload.xianyu.alibaba-inc.com  #闲鱼更新？
-
 0.0.0.0 res.openinstall.com
-0.0.0.0 update0.qquanquan.com  #韩小圈更新？
-#糖豆(广场舞)片头广告测试
-0.0.0.0 creative.medproad.com
-0.0.0.0 qcwx.medproad.com
-0.0.0.0 mapdownload.autonavi.com  #高德地图更新弹窗
+0.0.0.0 mapdownload.autonavi.com  #高德地图更新弹窗，误杀未知
+
 
 
 #———————社•交•类———————
@@ -71,8 +71,6 @@
 0.0.0.0 ad.weibo.com
 #0.0.0.0 api.weibo.cn
 #0.0.0.0 mapi.weibo.cn
-#微博国际版（①开屏，②③未知）
-#开屏0.0.0.0 mi.gdt.qq.com
 0.0.0.0 adsmind.ugdtimg.com
 0.0.0.0 adstrategy.biz.weibo.com
 #Soul（①②是开屏，后面是别的APP引用）
@@ -106,8 +104,11 @@
 0.0.0.0 a6-remad.qm989.com  #底部横幅？
 #0.0.0.0 mkt.wtzw.com  #备用开屏
 0.0.0.0 qm-ab.wtzw.com  #开屏，这两条都能干掉空白的摇一摇界面。
+0.0.0.0 ad-drs.52qumao.com
 0.0.0.0 ad-drs-ipv6.52qumao.com
 0.0.0.0 api-adx.52qumao.com  #v7.73(可能更早)发现新增广告，新开屏广告见优比客思
+0.0.0.0 api-cfg.52qumao.com
+0.0.0.0 t-remad.qm989.com
 
 #起点开屏广告(①)，误伤精选_漫画_小编精选和周冠军的封面图，影响超小。
 0.0.0.0 bossaudioandcomic-1252317822.image.myqcloud.com
@@ -133,6 +134,7 @@
 0.0.0.0 ii.gdt.qq.com
 0.0.0.0 16dd-advertise-1252317822.file.myqcloud.com
 0.0.0.0 16dd-advertise-1252317822.image.myqcloud.com
+#0.0.0.0 commontgw.reader.qq.com  开屏闪屏和“立即参与”按钮，禁用后主页感觉有点怪怪的
 #腾讯漫画(①开屏②活动福利弹窗、萌新顶栏)
 0.0.0.0 manhua.acimg.cn
 0.0.0.0 snowflake.qq.com
@@ -151,6 +153,7 @@
 #腾讯新闻（①开屏和视频广告的封面图,②也能禁开屏广告但副作用未知）
 0.0.0.0 pgdt.gtimg.cn  #QQ音乐开屏
 0.0.0.0 news.ssp.qq.com
+0.0.0.0 newsad.ssp.qq.com
 #新浪新闻(①开屏②③未知)
 0.0.0.0 sax.sina.com.cn
 0.0.0.0 saxn.sina.com.cn
@@ -279,6 +282,7 @@
 0.0.0.0 t-dsp.pinduoduo.com
 0.0.0.0 adim.pinduoduo.com
 0.0.0.0 dspsdk.pinduoduo.com
+0.0.0.0 lp.pinduoduo.com
 #饿了么
 0.0.0.0 elemecdn.com
 0.0.0.0 fuss10.elemecdn.com
@@ -286,7 +290,7 @@
 0.0.0.0 nr-op.elemecdn.com
 0.0.0.0 app-monitor.ele.me
 0.0.0.0 ads.95516.com  #云闪付
-0.0.0.0 ads.cup.com.cn  #云闪付，误杀本地生活(抢石化加油券用)专属精彩等
+#0.0.0.0 ads.cup.com.cn  #云闪付，误杀本地优惠活动
 0.0.0.0 ad.maoyan.com  #猫眼(购票)
 
 
@@ -389,6 +393,7 @@
 0.0.0.0 dict-live.youdao.com
 0.0.0.0 wow.youdao.com
 0.0.0.0 wow-activity.youdao.com
+0.0.0.0 rlogs.youdao.com
 #有道精品课(误伤首页横幅图片，其他图未知)
 0.0.0.0 oimagec4.ydstatic.com
 0.0.0.0 wanciwangdata.oss-cn-beijing.aliyuncs.com  #万词王开屏和横幅广告
@@ -472,6 +477,7 @@
 #百度输入法上传你输入了什么，副作用云联想词加载不出来。
 #0.0.0.0 udpolimenew.baidu.com
 #0.0.0.0 udpolimeok.baidu.com
+#0.0.0.0 upl.baidu.com
 
 
 #———————其•他———————
@@ -538,7 +544,7 @@
 #小米·QQ音乐（前2未知，③是开屏广告）
 0.0.0.0 ad.tencentmusic.com
 0.0.0.0 adstats.tencentmusic.com
-0.0.0.0 us.l.qq.com
+0.0.0.0 us.l.qq.com  #QQ阅读开屏广告
 #QQ音乐
 0.0.0.0 wnsmusic.qq.com
 0.0.0.0 tmeadbak.y.qq.com
@@ -908,7 +914,7 @@
 #0.0.0.0 t1.a.market.xiaomi.com
 #0.0.0.0 t2.a.market.xiaomi.com
 
-#虎牙 4月云更新后开屏和信息流都去不掉了
+#虎牙 24.04云更新后开屏和信息流都去不掉了
 0.0.0.0 business.msstatic.com
 0.0.0.0 e-ad-monitor.huya.com
 0.0.0.0 live-ads.huya.com
@@ -921,6 +927,10 @@
 0.0.0.0 sspapi.ads.cctv.com
 0.0.0.0 tracker.ads.cctv.com
 0.0.0.0 adstore-index-1252524079.file.myqcloud.com
+#糖豆(广场舞)片头广告？
+0.0.0.0 creative.medproad.com
+0.0.0.0 qcwx.medproad.com
+0.0.0.0 update0.qquanquan.com  #韩小圈更新？
 
 
 #DNS，可能会导致hosts失效
@@ -946,12 +956,12 @@
 0.0.0.0 httpdns.gslb.yy.com
 0.0.0.0 httpdns.huaweicloud.com
 0.0.0.0 httpdns.n.shifen.com
-0.0.0.0 httpdns.ocloud.heytapmobi.com
-0.0.0.0 httpdns.ocloud.oppomobile.com
+#0.0.0.0 httpdns.ocloud.heytapmobi.com
+#0.0.0.0 httpdns.ocloud.oppomobile.com
 0.0.0.0 httpdns.platform.dbankcloud.cn
 0.0.0.0 httpdns.platform.dbankcloud.com
-0.0.0.0 httpdns.push.heytapmobi.com
-0.0.0.0 httpdns.push.oppomobile.com
+#0.0.0.0 httpdns.push.heytapmobi.com
+#0.0.0.0 httpdns.push.oppomobile.com
 0.0.0.0 httpdns.volcengineapi.com
 0.0.0.0 httpdns.zybang.com
 0.0.0.0 httpdns1.cc.cdnhwc5.com
@@ -1018,6 +1028,7 @@
 0.0.0.0 tools.3g.qq.com
 0.0.0.0 analy.qq.com
 0.0.0.0 beacon.qq.com
+0.0.0.0 beaconcdn.qq.com
 0.0.0.0 mqqeve.beacon.qq.com
 0.0.0.0 oth.str.beacon.qq.com
 0.0.0.0 bugly.qq.com
@@ -1031,7 +1042,7 @@
 0.0.0.0 sdk.e.qq.com
 0.0.0.0 sdkreport.e.qq.com
 0.0.0.0 tangram.e.qq.com
-0.0.0.0 mi.gdt.qq.com
+0.0.0.0 mi.gdt.qq.com  #旧版微博国际版开屏
 0.0.0.0 rpt.gdt.qq.com
 0.0.0.0 v.gdt.qq.com
 0.0.0.0 v2.gdt.qq.com
@@ -1140,7 +1151,7 @@
 0.0.0.0 api.youtu.qq.com
 0.0.0.0 appchannel.html5.qq.com
 0.0.0.0 appicsh.qq.com
-0.0.0.0 applog.reader.qq.com
+#0.0.0.0 applog.reader.qq.com
 0.0.0.0 appstore.qzone.qq.com
 0.0.0.0 appsupport.qq.com
 0.0.0.0 aq.qq.servirce.com
@@ -1421,6 +1432,8 @@
 0.0.0.0 v3.gdt.qq.com
 0.0.0.0 appcfg.v.qq.com
 0.0.0.0 mmgr.gtimg.com
+0.0.0.0 up-hl.3g.qq.com
+0.0.0.0 vd6.l.qq.com
 #QQ浏览器
 0.0.0.0 adsolution.imtt.qq.com
 0.0.0.0 adsense.html5.qq.com
@@ -1433,7 +1446,7 @@
 0.0.0.0 novelsns.html5.qq.com
 0.0.0.0 cooperation.html5.qq.com
 0.0.0.0 zixuncooperation.html5.qq.com
-0.0.0.0 kde.qq.com  #小说的广告？
+0.0.0.0 kde.qq.com  #小说的广告
 0.0.0.0 ug.qbimg.qq.com  #开屏和首页下面的弹出式伸缩的广告图。
 0.0.0.0 mcdn.kandian.qq.com  #开屏
 0.0.0.0 m4.publicimg.browser.qq.com  #直达_搜索框上方的广告贴图。
@@ -1466,26 +1479,11 @@
 0.0.0.0 static-res.qq.com
 0.0.0.0 tetrack.qq.com
 0.0.0.0 xs.gdt.qq.com
+0.0.0.0 xsweb.gdt.qq.com  #QQ阅读抓出
 0.0.0.0 isrpt-vn.gdt.qq.com
-#欢乐麻将弹窗广告。两个都能单独屏蔽抽奖的弹窗广告(活动领奖励的弹窗未屏蔽)，第二个看起来还有别家用可能会误杀，好像是游戏资源下载。
+#欢乐麻将弹窗广告。两个都能单独屏蔽抽奖的弹窗广告(活动领奖励的弹窗未屏蔽)，第二个看起来还有别家用可能会误杀，好像是游戏资源下载
 0.0.0.0 hlmj.broker.tplay.qq.com
 #0.0.0.0 down.pandora.qq.com
-#AI在网上搜集的QQ开屏、横幅广告
-0.0.0.0 mqq.qq.com
-0.0.0.0 ssp.qq.com
-0.0.0.0 ad.qq.com
-0.0.0.0 ad.qun.qq.com
-0.0.0.0 adping.qq.com
-0.0.0.0 adsclick.qq.com
-0.0.0.0 adsfile.qq.com
-0.0.0.0 adshmct.qq.com
-0.0.0.0 adshmmsg.qq.com
-0.0.0.0 adslvfile.qq.com
-0.0.0.0 adslvseed.qq.com
-0.0.0.0 adsqqclick.qq.com
-0.0.0.0 jingjia.qq.com
-0.0.0.0 rich.qq.com
-0.0.0.0 union.qq.com
 #隐私相关(GitHub扒)
 0.0.0.0 wup.imtt.qq.com
 0.0.0.0 huatuo.qq.com  #华佗诊断
@@ -1501,7 +1499,7 @@
 0.0.0.0 orange-dc.alibaba.com
 0.0.0.0 o2o-ad-clicking.alibaba.com
 0.0.0.0 appdownload.alicdn.com
-#0.0.0.0 download.alicdn.com 影响酷安部分阿里系APP下载
+#0.0.0.0 download.alicdn.com 影响酷安部分阿里系APP下载，定制版淘宝更新资源包
 0.0.0.0 ossgw.alicdn.com
 0.0.0.0 gma.alicdn.com
 0.0.0.0 s.click.aliexpress.com
@@ -1719,7 +1717,7 @@
 0.0.0.0 sp0.baidu.com
 0.0.0.0 qapm.baidu.com
 0.0.0.0 fclog.baidu.com
-#0.0.0.0 sofire.baidu.com  #百度慧推,误伤贴吧lite的一键签到
+#0.0.0.0 sofire.baidu.com  #百度慧推,用户数据收集与分析,误伤贴吧lite的一键签到
 0.0.0.0 tcbox.baidu.com
 0.0.0.0 browserkernel.baidu.com
 0.0.0.0 hijack.baidu.com
@@ -1740,6 +1738,8 @@
 0.0.0.0 httpsdns.baidu.com
 0.0.0.0 bes-mtj.baidu.com  #250326
 0.0.0.0 click-bes.baidu.com
+0.0.0.0 g.baidu.com  #250615
+0.0.0.0 miao.baidu.com
 #百度音乐
 0.0.0.0 log.music.baidu.com
 0.0.0.0 pups.baidu.com
@@ -2685,6 +2685,7 @@
 #Spotify(音频广告去不掉)
 0.0.0.0 ads.spotify.com
 0.0.0.0 adstudio-assets.scdn.co
+0.0.0.0 audio-ad.spotify.com
 0.0.0.0 enduser.adsrvr.org
 
 #UC
@@ -3102,6 +3103,26 @@
 0.0.0.0 acdn.adnxs-simple.com
 0.0.0.0 ib.adnxs-simple.com  #Outlook顶部的广告？
 0.0.0.0 ad.mail.ru
+0.0.0.0 api.popin.cc
+0.0.0.0 ads.aralego.com
+0.0.0.0 au.breaktime.com.tw
+0.0.0.0 s0.2mdn.net
+0.0.0.0 dis.criteo.com
+0.0.0.0 ssp-sync.criteo.com
+0.0.0.0 ad.holmesmind.com
+0.0.0.0 c.holmesmind.com
+0.0.0.0 assets.mailerlite.com  #邮箱营销
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 yads.c.yimg.jp
+0.0.0.0 ad2.apx.appier.net
+0.0.0.0 au.adhacker.online
+0.0.0.0 power.adhacker.online
+0.0.0.0 breaktime.tw  #富盈数据
+0.0.0.0 a.breaktime.com.tw
+0.0.0.0 alliance.breaktime.com.tw
+0.0.0.0 powerads.breaktime.com.tw
+0.0.0.0 elads.kocpc.com.tw
+0.0.0.0 a.teads.tv
 
 #雅虎广告
 0.0.0.0 3p-geo.yahoo.com
@@ -4005,7 +4026,7 @@
 0.0.0.0 push.xdrig.com
 0.0.0.0 tdsdk.xdrig.com
 0.0.0.0 tdsdk-ip6.xdrig.com
-#布里奇信息
+#布里奇信息(酷安评论信息流广告用)
 0.0.0.0 www.anythinktech.com
 0.0.0.0 api.anythinktech.com
 0.0.0.0 adx.anythinktech.com
@@ -4022,6 +4043,10 @@
 0.0.0.0 img.anythinktech.com
 0.0.0.0 tk.anythinktech.com
 0.0.0.0 tkda.anythinktech.com
+0.0.0.0 mores.anythinktech.com
+0.0.0.0 ujoy.anythinktech.com
+0.0.0.0 aa.birdgesdk.com
+0.0.0.0 pitk.birdgesdk.com
 #天目广告
 0.0.0.0 www.admobile.top
 0.0.0.0 a.admobile.top
@@ -4668,6 +4693,7 @@
 0.0.0.0 et.tanx.com
 0.0.0.0 opehs.tanx.com
 0.0.0.0 sdk-config.tanx.com
+0.0.0.0 kgb-ifs.tanx.com
 #阿里巴巴-wrating
 0.0.0.0 c.wrating.com
 0.0.0.0 sohu.wrating.com
@@ -5159,14 +5185,53 @@
 0.0.0.0 tower.ubixioe.com
 0.0.0.0 tx-cfg-u1.ubixioe.com
 0.0.0.0 tx-data-u1.ubixioe.com
+#济南维快营销
+0.0.0.0 v.adx.hubcloud.com.cn
+0.0.0.0 api.htp.hubcloud.com.cn
+0.0.0.0 res1.hubcloud.com.cn
+0.0.0.0 sdktmp.hubcloud.com.cn
+#优推
+0.0.0.0 ad.gameley.com
+0.0.0.0 de.ad.gameley.com
+0.0.0.0 jp.ad.gameley.com
+0.0.0.0 bi.gameley.com
+0.0.0.0 dsp.cdn.gameley.com
+0.0.0.0 lemon.gameley.com
+0.0.0.0 jp.youtui.gameley.com
+0.0.0.0 www.gameley.com
+#Sigmob移动广告平台
+0.0.0.0 adservice.sigmob.cn
+0.0.0.0 adstage.sigmob.cn
+0.0.0.0 api.ssp.sigmob.cn
+0.0.0.0 dc.sigmob.cn
+0.0.0.0 n.sigmob.cn
+0.0.0.0 rtbcallback.sigmob.cn
+0.0.0.0 track.sigmob.cn
+0.0.0.0 tracktp.sigmob.cn
+0.0.0.0 dash.sigmob.com
+0.0.0.0 dc.sigmob.com
+0.0.0.0 devm.sigmob.com
+0.0.0.0 doc.sigmob.com
+0.0.0.0 m.sigmob.com
+0.0.0.0 sdkci.sigmob.com
+0.0.0.0 www.sigmob.com
+#章鱼移动-Octopus-移动广告平台
+0.0.0.0 vv.adintl.cn
+0.0.0.0 sv.adintl.cn
+0.0.0.0 sdkcfg.adintl.cn
+0.0.0.0 sh-adx.adintl.cn
+0.0.0.0 oss.cdn.adintl.cn
+0.0.0.0 sdklog.adintl.cn
+0.0.0.0 qutoutiao.adintl.cn
+0.0.0.0 sdkdoc.adintl.cn
+0.0.0.0 v.adintl.cn
+0.0.0.0 stat.adintl.cn
+0.0.0.0 dc.adintl.cn
+0.0.0.0 www.adintl.cn
+0.0.0.0 act.adintl.cn
 
 
 #各种乱七八糟的广告商、广告联盟
-0.0.0.0 adservice.sigmob.cn
-0.0.0.0 dc.sigmob.cn
-0.0.0.0 devm.sigmob.com
-0.0.0.0 m.sigmob.com
-0.0.0.0 www.sigmob.com
 0.0.0.0 tk.vlion.cn
 0.0.0.0 track.billowlink.com
 0.0.0.0 www.chengzijianzhan.com #字节
@@ -5277,7 +5342,6 @@
 0.0.0.0 report.adview.cn
 0.0.0.0 stat.funshion.net
 0.0.0.0 hw.zuimeitianqi.com
-0.0.0.0 rlogs.youdao.com
 0.0.0.0 devicemgr.hpplay.cn
 0.0.0.0 c.etoolads.cn  #从百度网盘抓出
 0.0.0.0 sv.adintl.cn
@@ -5366,5 +5430,19 @@
 0.0.0.0 ssp.1rtb.com
 0.0.0.0 iflyad.bjb.openstorage.cn
 0.0.0.0 mb.readke.com  #网页锐客江湖-锐客网的所谓验证机器人实际广告弹窗跳转到快手。
-
-
+0.0.0.0 adsmartget.guangtuikeji.com
+0.0.0.0 adsmartgetbes.pinyuconn.cn
+0.0.0.0 ads.mykudou.com
+0.0.0.0 mores.motowoo.com  #塔库信息
+0.0.0.0 adx.halomobi.com  #嗨量科技
+0.0.0.0 bd-cdn.halomobi.com
+0.0.0.0 sdk.aqyad.com
+0.0.0.0 trace.aqyad.com
+0.0.0.0 volc.bj.ad.track.66mobi.com
+0.0.0.0 ads.mykudou.com
+0.0.0.0 fasthuyitool.jidiandian.cn
+0.0.0.0 huyitool.jidiandian.cn
+0.0.0.0 common.shuhonggz.com
+0.0.0.0 sdk.shuhonggz.com
+0.0.0.0 stat.shuhonggz.com
+0.0.0.0 stg.shuhonggz.com
