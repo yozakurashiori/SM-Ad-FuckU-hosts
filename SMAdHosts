@@ -11,6 +11,10 @@
 ::1 ip6-localhost
 
 
+20.27.177.113 github.com
+185.199.110.133 github.io
+20.27.177.116 api.github.com
+
 #FCM加速
 108.177.125.188 mtalk.google.com  #台湾
 142.251.170.188 alt7-mtalk.google.com #TW
