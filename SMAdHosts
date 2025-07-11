@@ -15,10 +15,10 @@
 20.27.177.113 github.com
 185.199.110.133 github.io
 20.27.177.116 api.github.com
-185.199.110.133 raw.github.com
-185.199.110.133 raw.githubusercontent.com
-185.199.110.133 objects.githubusercontent.com
-185.199.110.133 media.githubusercontent.com
+151.101.40.133 raw.github.com
+151.101.40.133 raw.githubusercontent.com
+151.101.40.133 objects.githubusercontent.com
+151.101.40.133 media.githubusercontent.com
 
 #FCM加速
 108.177.125.188 mtalk.google.com  #台湾
