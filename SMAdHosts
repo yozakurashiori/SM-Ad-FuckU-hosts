@@ -1,6 +1,6 @@
 #————SM广告丟那吗hosts————
 #版本：2.8
-#更新日期：250711
+#更新日期：250712
 #规则数：4978
 
 #主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
@@ -12,9 +12,9 @@
 
 
 #GitHub加速
-20.27.177.113 github.com
+20.200.245.247 github.com
 185.199.110.133 github.io
-20.27.177.116 api.github.com
+20.200.245.245 api.github.com
 151.101.40.133 raw.github.com
 151.101.40.133 raw.githubusercontent.com
 151.101.40.133 objects.githubusercontent.com
