@@ -1,43 +1,59 @@
 #————SM广告丟那吗hosts————
 #版本：2.8
-#更新日期：250712
-#规则数：4978
+#更新日期：250804
+#规则数：5043
 
 #主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
 #订阅：https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts
 
 
-0.0.0.0 localhost
+127.0.0.1 localhost
 ::1 ip6-localhost
 
+#FCM推送
+108.177.125.188 mtalk.google.com  #台湾
+142.251.170.188 alt1-mtalk.google.com #TW
+74.125.200.188 alt2-mtalk.google.com #SG
+142.251.10.188 alt3-mtalk.google.com #JP
+142.251.12.188 alt4-mtalk.google.com #JP
+142.250.107.188 alt5-mtalk.google.com #US
+142.250.115.188 alt6-mtalk.google.com #US
+142.250.152.188 alt7-mtalk.google.com #US
+192.178.131.188 alt8-mtalk.google.com #US
 
 #GitHub加速
 20.200.245.247 github.com
 185.199.110.133 github.io
 20.200.245.245 api.github.com
-151.101.40.133 raw.github.com
-151.101.40.133 raw.githubusercontent.com
-151.101.40.133 objects.githubusercontent.com
-151.101.40.133 media.githubusercontent.com
-
-#FCM加速
-108.177.125.188 mtalk.google.com  #台湾
-142.251.170.188 alt7-mtalk.google.com #TW
-74.125.200.188 alt-8mtalk.google.com #SG
-142.251.10.188 alt5-mtalk.google.com #JP
-142.251.12.188 alt4-mtalk.google.com #JP
-142.250.107.188 alt6-mtalk.google.com #US
-142.250.115.188 alt3-mtalk.google.com #US
-142.250.152.188 alt2-mtalk.google.com #US
-192.178.131.188 alt1-mtalk.google.com #US
-#2404:6800:4008:c07::bc mtalk.google.com
-
-
-#————————测试区————————
-#0.0.0.0 api.m.jd.com  #京东更新弹窗，副作用未知，应该有点大。
-0.0.0.0 appdownload.xianyu.alibaba-inc.com  #闲鱼更新？
-0.0.0.0 res.openinstall.com
-0.0.0.0 mapdownload.autonavi.com  #高德地图更新弹窗
+20.200.245.247 gist.github.com  #20.200.245.247  140.82.116.3  140.82.112.3  140.82.121.4  4.237.22.38
+20.43.185.14 github.dev
+140.82.112.18 github.community
+140.82.113.21 collector.github.com
+140.82.113.26 alive.github.com
+140.82.112.25 live.github.com
+140.82.113.22 central.github.com
+192.0.66.2 github.blog
+13.107.42.16 pipelines.actions.githubusercontent.com
+185.199.110.153 lsposed.github.io
+185.199.110.153 topjohnwu.github.io
+185.199.110.154 github.githubassets.com  #网页排版
+185.199.110.153 githubstatus.com
+185.199.110.154 docs.github.com
+151.101.76.133 raw.github.com
+146.75.48.133 raw.githubusercontent.com
+146.75.48.133 objects.githubusercontent.com
+146.75.48.133 media.githubusercontent.com
+146.75.48.133 release-assets.githubusercontent.com
+185.199.110.133 cloud.githubusercontent.com
+185.199.110.133 desktop.githubusercontent.com
+185.199.110.133 user-images.githubusercontent.com
+185.199.110.133 avatars.githubusercontent.com
+185.199.110.133 avatars0.githubusercontent.com
+185.199.110.133 avatars1.githubusercontent.com
+185.199.110.133 avatars2.githubusercontent.com
+185.199.110.133 avatars3.githubusercontent.com
+185.199.110.133 avatars4.githubusercontent.com
+185.199.110.133 avatars5.githubusercontent.com
 
 
 #———————社•交•类———————
@@ -48,6 +64,7 @@
 #0.0.0.0 qzonestyle.gtimg.cn #QQ空间装扮
 0.0.0.0 world.qpic.cn  #小世界的图片，视频的封面图。
 0.0.0.0 tianshu.gtimg.cn  #顶部横幅广告图片，误杀签到打卡后的图片
+0.0.0.0 minigame.gtimg.cn  #QQ微信小游戏图标
 #微信公众号(只禁③广告位还在只是不显示广告图片&视频)
 0.0.0.0 wxa.wxs.qq.com
 0.0.0.0 wxsnsdy.wxs.qq.com
@@ -72,7 +89,7 @@
 0.0.0.0 bootrealtime.uve.weibo.com
 0.0.0.0 wbapp.uve.weibo.com
 0.0.0.0 sdkapp.uve.weibo.com
-0.0.0.0 datacollection.uve.weibo.com
+0.0.0.0 datacollection.uve.weibo.com #开屏？
 0.0.0.0 fastimage.uve.weibo.com #开屏?
 0.0.0.0 uve.weibo.com
 0.0.0.0 ad.weibo.com
@@ -269,6 +286,7 @@
 0.0.0.0 lban.spdb.com.cn
 0.0.0.0 ad.ysepay.com  #银盛通
 #0.0.0.0 antifraud.cup.com.cn #银联反诈
+0.0.0.0 intellicc.bcs.cmbchina.com #(招行)掌上生活弹窗广告，开屏去不掉，误杀大量图片
 
 
 #—————买买买•购物类#——————
@@ -321,6 +339,7 @@
 0.0.0.0 awaken.amap.com
 0.0.0.0 amap-aos-info-nogw.amap.com
 #0.0.0.0 free-aos-cdn-image.amap.com  #误伤一些图标
+0.0.0.0 optimus-ads-ykx.amap.com
 #滴滴（①开屏广告会误伤主页一些图标的图）
 #0.0.0.0 img-ys011.didistatic.com
 0.0.0.0 adtrack.xiaojukeji.com  #追踪
@@ -468,6 +487,9 @@
 0.0.0.0 ad.99jiasu.com
 0.0.0.0 adstatis.99jiasu.com
 0.0.0.0 ad.xhey.top  #今日水印相机
+0.0.0.0 ad.cyapi.cn  #彩云天气
+0.0.0.0 fcard.api.moji.com  #墨迹天气顶部横幅
+0.0.0.0 vdo.api.moji.com  #墨迹天气_墨迹看点
 #中国天气(①②信息流横幅广告，③右上角贴图)
 0.0.0.0 ads-sdk-api.ranfenghd.com
 0.0.0.0 ads-tracker.ranfenghd.com
@@ -485,6 +507,10 @@
 0.0.0.0 udpolimenew.baidu.com
 0.0.0.0 udpolimeok.baidu.com
 0.0.0.0 upl.baidu.com
+0.0.0.0 ads.uutest.cn  #【测网速】
+#网页[美国地址生成器]弹窗广告①上面②中间
+0.0.0.0 offfurreton.com
+0.0.0.0 gloaphoo.net
 
 
 #———————其•他———————
@@ -556,8 +582,8 @@
 0.0.0.0 wnsmusic.qq.com
 0.0.0.0 tmeadbak.y.qq.com
 0.0.0.0 ugcup.music.qq.com
-0.0.0.0 c6.y.qq.com  #更新？
-0.0.0.0 base.music.qq.com  #更新？
+#0.0.0.0 c6.y.qq.com  #更新？
+#0.0.0.0 base.music.qq.com  #更新？
 #酷我音乐（去开屏广告①②缺一不可，①会误伤主页的主banner轮播图，③是主页插入的广告如拼多多广告）
 0.0.0.0 kwimg3.kuwo.cn
 0.0.0.0 httpdns.kg.qq.com
@@ -1091,7 +1117,7 @@
 0.0.0.0 apd-vodp2pnat.teg.tencent-cloud.net
 0.0.0.0 otheve.beacon.qq.com
 0.0.0.0 tmead.y.qq.com
-0.0.0.0 h.trace.qq.com
+#0.0.0.0 h.trace.qq.com 误杀手游加速器功能页
 0.0.0.0 hb.kg.qq.com
 0.0.0.0 tdid.m.qq.com
 0.0.0.0 oth.str.mdt.qq.com
@@ -1147,7 +1173,7 @@
 0.0.0.0 adsview2.qq.com
 0.0.0.0 adv.app.qq.com
 0.0.0.0 adver.qq.com
-0.0.0.0 aegis.qq.com
+#0.0.0.0 aegis.qq.com  误杀手游加速器功能页
 0.0.0.0 ag.qq.com
 0.0.0.0 agent.sj.qq.com
 0.0.0.0 agstat.html5.qq.com
@@ -1204,11 +1230,11 @@
 0.0.0.0 dir.minigame.qq.com
 0.0.0.0 dl_dir.qq.com
 0.0.0.0 dl_dir2.qq.com
-0.0.0.0 dldir1.qq.com  #腾讯手游加速器开屏广告，误杀微信官网网页无法下载安卓版微、微信视频号封面图和UP主头像。
-0.0.0.0 dldir2.qq.com
+#0.0.0.0 dldir1.qq.com  #腾讯手游加速器开屏广告，误杀微信官网网页无法下载安卓版微信、微信视频号封面图和UP主头像。
+#0.0.0.0 dldir2.qq.com
 #0.0.0.0 dldir3.qq.com  #误杀欢乐麻将不少道具图标和角色装扮。
-0.0.0.0 dldir4.qq.com
-0.0.0.0 dldir5.qq.com
+#0.0.0.0 dldir4.qq.com
+#0.0.0.0 dldir5.qq.com
 0.0.0.0 dlied6.qq.com
 0.0.0.0 dldir1v6.qq.com
 0.0.0.0 dmtrack.buy.qq.com
@@ -1441,6 +1467,12 @@
 0.0.0.0 mmgr.gtimg.com
 0.0.0.0 up-hl.3g.qq.com
 0.0.0.0 vd6.l.qq.com
+0.0.0.0 tianshu.qq.com  #腾讯文档弹窗
+#0.0.0.0 h5.qzone.qq.com  #据说是腾讯文档首页横幅
+0.0.0.0 control.vpn.qq.com  #腾讯手游加速器开屏广告和弹窗广告，但是误杀底栏_游戏_我的 一片空白。
+#h.trace.qq.com和aegis.qq.com必须一起放行，不然手游加速器一些功能界面明明能打开但是秒跳转显示没网。
+0.0.0.0 a.gdt.qq.com
+0.0.0.0 event.gdt.qq.com
 #QQ浏览器
 0.0.0.0 adsolution.imtt.qq.com
 0.0.0.0 adsense.html5.qq.com
@@ -1533,10 +1565,14 @@
 0.0.0.0 proxy-mob-cld.alicdn.com
 0.0.0.0 umdc.aliapp.org
 0.0.0.0 adash-emas.cn-hangzhou.aliyuncs.com
+0.0.0.0 admonitor-feedback.cn-hangzhou.log.aliyuncs.com  #从菜鸟
 0.0.0.0 bixi.alicdn.com  #阿里系应用版本太低提示页面？
 0.0.0.0 cdn.ynuf.aliapp.org #云控&配置?
 0.0.0.0 ynuf.aliapp.org  #据说误杀饿了么学生福利红包
 0.0.0.0 adash.man.aliyuncs.com  #阿里云-用户行为分析隐私上报
+0.0.0.0 ad-host-backup-america.oss-us-west-1.aliyuncs.com
+0.0.0.0 ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com
+0.0.0.0 ad-host-backup-europe.oss-eu-central-1.aliyuncs.com
 #淘宝广告
 #0.0.0.0 acs.m.taobao.com  #会导致一些新装的阿里系APP没网，连过网再禁却没事，可能是和初始化有关。阿里云盘卡开屏。
 0.0.0.0 wcp.taobao.com  #淘宝开屏？
@@ -1573,6 +1609,7 @@
 0.0.0.0 msgacs.m.taobao.com
 0.0.0.0 acs4public.m.taobao.com
 0.0.0.0 accscdn4public.m.taobao.com
+0.0.0.0 qh-material.taobao.com  #莉景天气开屏广告
 #ali-mama
 0.0.0.0 a.alimama.cn
 0.0.0.0 img.alimama.cn
@@ -1746,6 +1783,7 @@
 0.0.0.0 click-bes.baidu.com
 0.0.0.0 g.baidu.com  #250615
 0.0.0.0 miao.baidu.com
+0.0.0.0 miniapp-ad.bj.bcebos.com
 #百度音乐
 0.0.0.0 log.music.baidu.com
 0.0.0.0 pups.baidu.com
@@ -2042,9 +2080,11 @@
 0.0.0.0 dd.browser.360.cn  #测试
 0.0.0.0 tt.browser.360.cn  #250115测试
 0.0.0.0 c.sayhi.360.cn
+0.0.0.0 mobi.360doc.com
+0.0.0.0 cientch.360doc.cn  #网页360个人图书馆广告
+
 
 #穿山甲广告★
-
 0.0.0.0 p3-ad-sign.byteimg.com  #抖音部分图片？
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p9-ad-sign.byteimg.com
@@ -2385,7 +2425,6 @@
 0.0.0.0 ssdk-sg.pangle.io
 
 
-
 #TopOn广告(酷安用，不然信息流漏广告)
 0.0.0.0 app.takuad.com
 0.0.0.0 img.toponad.com
@@ -2485,215 +2524,6 @@
 0.0.0.0 hdns.ksyun.com
 0.0.0.0 tx.a.kspkg.com  #250326测试
 
-#Adobe
-0.0.0.0 campaign.adobe.com
-0.0.0.0 mcd-mkt-prod31-lb.campaign.adobe.com
-0.0.0.0 pandoramedia-mkt-prod1-t.campaign.adobe.com
-0.0.0.0 wdpro-mkt-prod2-lb.campaign.adobe.com
-0.0.0.0 geo.adobe.com
-0.0.0.0 adtag.primetime.adobe.com
-0.0.0.0 sstats.adobe.com
-
-#微软广告
-0.0.0.0 bat.bing.com
-0.0.0.0 c.bing.com
-0.0.0.0 bingads.microsoft.com
-0.0.0.0 advertise.bingads.microsoft.com
-0.0.0.0 rad.live.com
-0.0.0.0 ads1.msn.com
-0.0.0.0 0.r.msn.com
-0.0.0.0 a.ads1.msn.com
-0.0.0.0 a.ads2.msn.com
-0.0.0.0 ac3.msn.com
-0.0.0.0 ads.eu.msn.com
-0.0.0.0 ads.msn.com
-0.0.0.0 ads2.msn.com
-0.0.0.0 adsyndication.msn.com
-0.0.0.0 b.ads1.msn.com
-0.0.0.0 ads.ninemsn.com.au
-0.0.0.0 c.msn.com.cn
-0.0.0.0 catalog.video.msn.com
-0.0.0.0 h.msn.com
-0.0.0.0 popup.msn.com
-0.0.0.0 r.msn.com
-0.0.0.0 rmads.eu.msn.com
-0.0.0.0 rmads.msn.com
-0.0.0.0 toolbar.msn.com
-0.0.0.0 a.global.msads.net
-0.0.0.0 ads2.msads.net
-0.0.0.0 ads1.msads.net
-0.0.0.0 global.msads.net
-0.0.0.0 crl.microsoft.com
-0.0.0.0 rad.microsoft.com
-0.0.0.0 c.msn.com
-0.0.0.0 otf.msn.com
-0.0.0.0 ieonline.microsoft.com
-0.0.0.0 mobileads.msn.com
-0.0.0.0 telemetry.appex.bing.net
-0.0.0.0 bingads.microsoft.com
-0.0.0.0 choice.microsoft.com
-0.0.0.0 df.telemetry.microsoft.com
-0.0.0.0 diagnostics.support.microsoft.com
-0.0.0.0 i1.services.social.microsoft.com
-0.0.0.0 oca.telemetry.microsoft.com
-0.0.0.0 redir.metaservices.microsoft.com
-0.0.0.0 reports.wes.df.telemetry.microsoft.com
-0.0.0.0 services.wes.df.telemetry.microsoft.com
-0.0.0.0 settings-sandbox.data.microsoft.com
-0.0.0.0 sqm.df.telemetry.microsoft.com
-0.0.0.0 sqm.telemetry.microsoft.com
-0.0.0.0 statsfe1.ws.microsoft.com
-0.0.0.0 statsfe2.ws.microsoft.com
-0.0.0.0 survey.watson.microsoft.com
-0.0.0.0 telecommand.telemetry.microsoft.com
-0.0.0.0 telemetry.microsoft.com
-0.0.0.0 telemetry.urs.microsoft.com
-0.0.0.0 vortex-sandbox.data.microsoft.com
-0.0.0.0 vortex-win.data.microsoft.com
-0.0.0.0 vortex.data.microsoft.com
-0.0.0.0 watson.microsoft.com
-0.0.0.0 watson.ppe.telemetry.microsoft.com
-0.0.0.0 watson.telemetry.microsoft.com
-0.0.0.0 wes.df.telemetry.microsoft.com
-0.0.0.0 www.bingads.microsoft.com
-0.0.0.0 a.global.msads.net
-0.0.0.0 ads1.msads.net
-0.0.0.0 ads2.msads.net
-0.0.0.0 global.msads.net
-0.0.0.0 choice.microsoft.com.nsatc.net
-0.0.0.0 i1.services.social.microsoft.com.nsatc.net
-0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
-0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
-0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
-0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
-#0.0.0.0 api.statsig.com  #outlook lite 底栏UI加载短信栏用的，禁用后可能会导致openAI、chatgpt无法登录。   新版本已失效，已本地加载。
-
-#谷歌广告
-0.0.0.0 lh3.googleadsserving.cn
-0.0.0.0 google-analytics.com
-0.0.0.0 ssl.google-analytics.com
-0.0.0.0 www.google-analytics.com
-0.0.0.0 ads.google.com
-0.0.0.0 adservice.google.com
-0.0.0.0 googleadservices.com
-0.0.0.0 pagead2.googleadservices.com
-0.0.0.0 www.googleadservices.com
-0.0.0.0 static.googleadsserving.cn
-0.0.0.0 googlesyndication.com
-0.0.0.0 ade.googlesyndication.com
-0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 pagead-googlehosted.l.google.com
-0.0.0.0 partner.googleadservices.com
-0.0.0.0 tpc.googlesyndication.com
-0.0.0.0 displayads-formats.googleusercontent.com
-0.0.0.0 www.googletagmanager.com
-0.0.0.0 www.googletagservices.com
-0.0.0.0 ad.googleanalysis.mobi
-0.0.0.0 stat.googleanalysis.mobi
-0.0.0.0 afs.googlesyndication.com
-0.0.0.0 video-ad-stats.googlesyndication.com
-0.0.0.0 googleadapis.google.com
-0.0.0.0 googleadapis.l.google.com
-0.0.0.0 adsense.google.com
-0.0.0.0 adservice.google.com.ar
-0.0.0.0 adservice.google.com.au
-0.0.0.0 adservice.google.com.br
-0.0.0.0 adservice.google.ca
-0.0.0.0 adservice.google.com.co
-0.0.0.0 adservice.google.de
-0.0.0.0 adservice.google.dk
-0.0.0.0 adservice.google.fr
-0.0.0.0 adservice.google.com.gt
-0.0.0.0 adservice.google.co.in
-0.0.0.0 adservice.google.co.kr
-0.0.0.0 adservice.google.com.mx
-0.0.0.0 adservice.google.nl
-0.0.0.0 adservice.google.no
-0.0.0.0 adservice.google.com.pe
-0.0.0.0 adservice.google.com.ph
-0.0.0.0 adservice.google.com.pk
-0.0.0.0 adservice.google.pl
-0.0.0.0 adservice.google.ru
-0.0.0.0 adservice.google.com.tr
-0.0.0.0 adservice.google.com.tw
-0.0.0.0 adservice.google.co.uk
-0.0.0.0 adservice.google.vg
-0.0.0.0 adservice.google.com.vn
-0.0.0.0 adservice.google.co.za
-0.0.0.0 ogads-pa.clients6.google.com
-0.0.0.0 ogads-pa.googleapis.com
-0.0.0.0 firebase-settings.crashlytics.com
-0.0.0.0 firebaselogging.googleapis.com
-0.0.0.0 firebaselogging-pa.googleapis.com
-0.0.0.0 myphonenumbers-pa.googleapis.com
-0.0.0.0 doubleclick.com
-0.0.0.0 www.doubleclick.com
-0.0.0.0 ad.doubleclick.com
-0.0.0.0 g.doubleclick.com
-0.0.0.0 adclick.g.doublecklick.net
-0.0.0.0 googleads.g.doubleclick.com
-0.0.0.0 doubleclick.net
-0.0.0.0 accounts.doubleclick.net
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 ad-emea.doubleclick.net
-0.0.0.0 ff.doubleclick.net
-0.0.0.0 fls.doubleclick.net
-0.0.0.0 5290727.fls.doubleclick.net
-0.0.0.0 8168974.fls.doubleclick.net
-0.0.0.0 8397396.fls.doubleclick.net
-0.0.0.0 g.doubleclick.net
-0.0.0.0 adx.g.doubleclick.net
-0.0.0.0 bid.g.doubleclick.net
-0.0.0.0 cm.g.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 googleads4.g.doubleclick.net
-0.0.0.0 pagead.l.doubleclick.net
-0.0.0.0 pagead46.l.doubleclick.net
-0.0.0.0 partnerad.l.doubleclick.net
-0.0.0.0 pubads.g.doubleclick.net
-0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 stats.g.doubleclick.net
-0.0.0.0 survey.g.doubleclick.net
-0.0.0.0 dart.l.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 s0.doubleclick.net
-0.0.0.0 static.doubleclick.net
-
-#油管推脸书P站
-0.0.0.0 ads.youtube.com
-0.0.0.0 fcmatch.youtube.com
-0.0.0.0 an.facebook.com
-0.0.0.0 pixel.facebook.com
-0.0.0.0 ads.twitter.com
-0.0.0.0 ads.x.com
-0.0.0.0 ads-api.twitter.com
-0.0.0.0 ads-bidder-api.twitter.com
-0.0.0.0 static.ads-twitter.com
-0.0.0.0 analytics.twitter.com
-0.0.0.0 ads-twitter.com
-0.0.0.0 pixon.ads-pixiv.net
-0.0.0.0 open-pixon.ads-pixiv.net
-0.0.0.0 d.pixiv.org
-0.0.0.0 sh.adingo.jp  #↓P站
-0.0.0.0 dex.advg.jp
-0.0.0.0 y.one.impact-ad.jp
-0.0.0.0 js.mtburn.com
-0.0.0.0 spcnv.i-mobile.co.jp
-0.0.0.0 spdmg-backend.i-mobile.co.jp
-0.0.0.0 spdmg.i-mobile.co.jp
-0.0.0.0 assets.gunosy.com  #↑P站
-0.0.0.0 staticxx.facebook.com
-0.0.0.0 dc.ads.linkedin.com  #领英
-0.0.0.0 syndication.twitter.com
-0.0.0.0 tapi.apkpure.net  #APKpure广告图
-0.0.0.0 t.apkpure.net
-
-#Spotify(音频广告去不掉)
-0.0.0.0 ads.spotify.com
-0.0.0.0 adstudio-assets.scdn.co
-0.0.0.0 audio-ad.spotify.com
-0.0.0.0 enduser.adsrvr.org
-
 #UC
 0.0.0.0 applog.uc.cn
 0.0.0.0 gj.applog.uc.cn
@@ -2762,127 +2592,6 @@
 0.0.0.0 vs8.gzct.u3.ucweb.com
 0.0.0.0 vs8.gzcu.u3.ucweb.com
 0.0.0.0 sugs.m.sm.cn
-
-#亚马逊广告
-0.0.0.0 amazon-adsystem.com
-0.0.0.0 aax.amazon-adsystem.com
-0.0.0.0 aax-eu.amazon-adsystem.com
-0.0.0.0 aax-eu-retail-direct.amazon-adsystem.com
-0.0.0.0 aax-fe.amazon-adsystem.com
-0.0.0.0 aax-fe-pek.amazon-adsystem.com
-0.0.0.0 aax-fe-sin.amazon-adsystem.com
-0.0.0.0 aax-us.amazon-adsystem.com
-0.0.0.0 aax-us-east.amazon-adsystem.com
-0.0.0.0 c.amazon-adsystem.com
-0.0.0.0 cdn-a.amazon-adsystem.com
-0.0.0.0 fls-eu.amazon-adsystem.com
-0.0.0.0 fls-fe.amazon-adsystem.com
-0.0.0.0 fls-na.amazon-adsystem.com
-0.0.0.0 ir-na.amazon-adsystem.com
-0.0.0.0 mads.amazon-adsystem.com
-0.0.0.0 s.amazon-adsystem.com
-0.0.0.0 ws-eu.amazon-adsystem.com
-0.0.0.0 ws-na.amazon-adsystem.com
-0.0.0.0 z-eu.amazon-adsystem.com
-0.0.0.0 z-na.amazon-adsystem.com
-
-#亚马逊
-0.0.0.0 aan.amazon.com
-0.0.0.0 aax-us-east-retail-direct.amazon.com
-0.0.0.0 fls-na.amazon.com
-0.0.0.0 ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
-0.0.0.0 adserver-1277986481.ap-northeast-1.elb.amazonaws.com
-0.0.0.0 ad-server-lb-294150285.ap-southeast-1.elb.amazonaws.com
-0.0.0.0 ads-816899299.ap-southeast-1.elb.amazonaws.com
-0.0.0.0 rw-yieldmo-com-1673518954.ap-southeast-1.elb.amazonaws.com
-0.0.0.0 adservingvpc-1239633584.eu-west-1.elb.amazonaws.com
-0.0.0.0 beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com
-0.0.0.0 prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com
-0.0.0.0 adktracking-1671721947.eu-west-3.elb.amazonaws.com
-0.0.0.0 adn-tktracking-virginia-621472495.us-east-1.elb.amazonaws.com
-0.0.0.0 adserver-2084671375.us-east-1.elb.amazonaws.com
-0.0.0.0 adserver-vpc-alb-0-2072243822.us-east-1.elb.amazonaws.com
-0.0.0.0 adserver-vpc-alb-1-2048135467.us-east-1.elb.amazonaws.com
-0.0.0.0 adserver-vpc-alb-2-1898430250.us-east-1.elb.amazonaws.com
-0.0.0.0 adsk-pnxproxy-prd-1753980530.us-east-1.elb.amazonaws.com
-0.0.0.0 audience-164723144.us-east-1.elb.amazonaws.com
-0.0.0.0 log-collectors-73517960.us-east-1.elb.amazonaws.com
-0.0.0.0 lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com
-0.0.0.0 nova-collector-1192479543.us-east-1.elb.amazonaws.com
-0.0.0.0 prod-ash-beacon-1960876484.us-east-1.elb.amazonaws.com
-0.0.0.0 rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
-0.0.0.0 tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com
-0.0.0.0 tracking-1611167402.us-east-1.elb.amazonaws.com
-0.0.0.0 wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com
-0.0.0.0 ads-b-480313385.us-west-1.elb.amazonaws.com
-0.0.0.0 ads-c-1854119718.us-west-1.elb.amazonaws.com
-0.0.0.0 adserver-vpc-alb-0-2075095491.us-west-2.elb.amazonaws.com
-0.0.0.0 adserver-vpc-alb-1-725730730.us-west-2.elb.amazonaws.com
-0.0.0.0 adserver-vpc-alb-2-553366957.us-west-2.elb.amazonaws.com
-0.0.0.0 adserver-vpc-alb-3-578630024.us-west-2.elb.amazonaws.com
-0.0.0.0 beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com
-0.0.0.0 dco-jads-727222375.us-west-2.elb.amazonaws.com
-0.0.0.0 prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com
-0.0.0.0 rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com
-0.0.0.0 wildcard-ads-448740142.us-west-2.elb.amazonaws.com
-0.0.0.0 huq-query-loggers-europe-west1-32ef7f4bbf54ce27.elb.eu-west-1.amazonaws.com
-0.0.0.0 admarvel.s3.amazonaws.com
-0.0.0.0 advancelocal-adapter-image-uploads.s3.amazonaws.com
-0.0.0.0 ignifyecom.s3.amazonaws.com
-0.0.0.0 incoming-data-sense360.s3.amazonaws.com
-0.0.0.0 nativead.s3.amazonaws.com
-0.0.0.0 surveygizmobeacon.s3.amazonaws.com
-0.0.0.0 later-analytics-reports.s3-accelerate.amazonaws.com
-0.0.0.0 bin5y4muil.execute-api.us-east-1.amazonaws.com
-0.0.0.0 mobileanalytics.us-east-1.amazonaws.com
-0.0.0.0 huq-query-loggers-california-3cec807da3e9dc0d.elb.us-west-1.amazonaws.com
-
-#SnapChat
-0.0.0.0 snapads.com
-0.0.0.0 adserver.snapads.com
-0.0.0.0 usc.adserver.snapads.com
-0.0.0.0 adserver.shadow.snapads.com
-0.0.0.0 study.snapads.com
-0.0.0.0 ads.snapchat.com
-0.0.0.0 adsapi.snapchat.com
-0.0.0.0 tr.snapchat.com
-0.0.0.0 tr6.snapchat.com
-
-#91porn.com
-0.0.0.0 fans.bestvogue.com
-0.0.0.0 bcp.crwdcntrl.net
-
-#Unity3D游戏引擎
-0.0.0.0 cdp.cloud.unity3d.com
-0.0.0.0 perf-events.cloud.unity3d.com
-0.0.0.0 config.uca.cloud.unity3d.com
-0.0.0.0 data-optout-service.uca.cloud.unity3d.com
-0.0.0.0 userreporting.cloud.unity3d.com
-0.0.0.0 ads.prd.ie.internal.unity3d.com
-0.0.0.0 publisher-event.ads.prd.ie.internal.unity3d.com
-0.0.0.0 ads-privacy-api.prd.mz.internal.unity3d.com
-0.0.0.0 stats.unity3d.com
-0.0.0.0 unityads.unity3d.com
-0.0.0.0 adserver.unityads.unity3d.com
-0.0.0.0 adsx.unityads.unity3d.com
-0.0.0.0 auction.unityads.unity3d.com
-0.0.0.0 auction-banner.unityads.unity3d.com
-0.0.0.0 auction-load.unityads.unity3d.com
-0.0.0.0 cdn.unityads.unity3d.com
-0.0.0.0 config.unityads.unity3d.com
-0.0.0.0 configv2.unityads.unity3d.com
-0.0.0.0 geocdn.unityads.unity3d.com
-0.0.0.0 httpkafka.unityads.unity3d.com
-0.0.0.0 publisher-config.unityads.unity3d.com
-0.0.0.0 publisher-event.unityads.unity3d.com
-0.0.0.0 thind.unityads.unity3d.com
-0.0.0.0 webview.unityads.unity3d.com
-0.0.0.0 events.mz.unity3d.com
-0.0.0.0 ae.iads.unity3d.com
-0.0.0.0 cdn.iads.unitychina.cn
-0.0.0.0 configv2.unityads.unitychina.cn
-
-
 
 
 #三星
@@ -3032,6 +2741,7 @@
 0.0.0.0 test.new.api.ad.xiaomi.com
 0.0.0.0 adinfo.ra1.xlmc.sec.miui.com
 0.0.0.0 tracking.miui.com
+0.0.0.0 om.tracking.miui.com
 0.0.0.0 analytics.miui.com
 0.0.0.0 analytics.db.miui.com
 #系统应用更新弹窗，比如下载管理、相册
@@ -3041,6 +2751,27 @@
 0.0.0.0 api-installer.pt.xiaomi.com
 0.0.0.0 preview-api.installer.xiaomi.com
 0.0.0.0 test-api-installer.pt.xiaomi.com
+#安全相关，每次装完APP都会连，可能有上报
+0.0.0.0 adv.sec.miui.com
+0.0.0.0 api.sec.miui.com
+0.0.0.0 auth.be.sec.miui.com
+0.0.0.0 flash.sec.miui.com
+#安全相关，下载完文件触发
+0.0.0.0 data.sec.miui.com
+0.0.0.0 api.tw06.xlmc.sec.miui.com
+#小米云扫描组件(搬运)
+0.0.0.0 log.avlyun.sec.intl.miui.com
+0.0.0.0 update.avlyun.sec.miui.com
+0.0.0.0 ixav-cse.avlyun.com
+0.0.0.0 logupdate.avlyun.sec.miui.com
+0.0.0.0 miui-fxcse.avlyun.com
+0.0.0.0 sdkconf.avlyun.com
+0.0.0.0 sdkconf.avlyun.com
+0.0.0.0 miav-cse.avlyun.com
+0.0.0.0 miav-cse.avlyun.com
+#禁用后将无法云扫描病毒
+127.0.0.1 etl-xlmc-ssl.sandai.net
+127.0.0.1 cn.app.chat.xiaomi.net
 #屏蔽系统更新
 0.0.0.0 update.miui.com
 #小米rom下载加速（备用IP香港163.181.35.44，182.239.104.89，台北47.246.36.217，47.246.37.220）
@@ -3051,6 +2782,8 @@
 0.0.0.0 qrcdn.quickapp.cn
 0.0.0.0 statres.quickapp.cn
 0.0.0.0 cnbj1.fds.api.xiaomi.co  #小米遥控器底部横幅
+0.0.0.0 api.jr.mi.com  #小米钱包净化
+0.0.0.0 sug.browser.miui.com  #小米浏览器搜索提示，上方的应用推广和下面的联想词一起干没
 
 
 #反诈
@@ -3065,7 +2798,187 @@
 0.0.0.0 oss.chanct.cn
 0.0.0.0 sz.gafz.chanct.cn
 0.0.0.0 tingfeng.chanct.cn
+#政府平台(搬运)
+0.0.0.0 www.mps.gov.cn
+0.0.0.0 mps.gov.c
+0.0.0.0 m.mps.gov.cn
+0.0.0.0 ywtbapi.mps.gov.cn
+0.0.0.0 beian.mps.gov.cn
+0.0.0.0 mail.mps.gov.cn
+0.0.0.0 ywtb.mps.gov.cn
+0.0.0.0 ngo.mps.gov.cn
+0.0.0.0 dbjb.mps.gov.cn
+0.0.0.0 ispl.mps.gov.cn
+0.0.0.0 ecidewc.mps.gov.cn
+0.0.0.0 cyberpolice.mps.gov.cn
+0.0.0.0 app.mps.gov.cn
+0.0.0.0 zlbj.mps.gov.cn
+0.0.0.0 zwfw.mps.gov.cn
+0.0.0.0 ecidcwc.mps.gov.cn
+0.0.0.0 miit.gov.cn
+0.0.0.0 beian.miit.gov.cn
 
+
+#微软广告
+0.0.0.0 bingads.microsoft.com
+0.0.0.0 advertise.bingads.microsoft.com
+0.0.0.0 www.bingads.microsoft.com
+0.0.0.0 rad.microsoft.com
+0.0.0.0 ads1.msads.net
+0.0.0.0 ads2.msads.net
+0.0.0.0 global.msads.net
+0.0.0.0 a.global.msads.net
+0.0.0.0 rad.live.com
+0.0.0.0 ads1.msn.com
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 b.ads1.msn.com
+0.0.0.0 ads.eu.msn.com
+0.0.0.0 ads.msn.com
+0.0.0.0 ads2.msn.com
+0.0.0.0 adsyndication.msn.com
+0.0.0.0 ads.ninemsn.com.au
+0.0.0.0 mobileads.msn.com
+0.0.0.0 rmads.eu.msn.com
+0.0.0.0 rmads.msn.com
+
+#谷歌广告
+0.0.0.0 lh3.googleadsserving.cn
+0.0.0.0 google-analytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 ads.google.com
+0.0.0.0 adservice.google.com
+0.0.0.0 googleadservices.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 static.googleadsserving.cn
+0.0.0.0 googlesyndication.com
+0.0.0.0 ade.googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 pagead-googlehosted.l.google.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 displayads-formats.googleusercontent.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.googletagservices.com
+0.0.0.0 ad.googleanalysis.mobi
+0.0.0.0 stat.googleanalysis.mobi
+0.0.0.0 afs.googlesyndication.com
+0.0.0.0 video-ad-stats.googlesyndication.com
+0.0.0.0 googleadapis.google.com
+0.0.0.0 googleadapis.l.google.com
+0.0.0.0 adsense.google.com
+0.0.0.0 adservice.google.com.ar
+0.0.0.0 adservice.google.com.au
+0.0.0.0 adservice.google.com.br
+0.0.0.0 adservice.google.ca
+0.0.0.0 adservice.google.com.co
+0.0.0.0 adservice.google.de
+0.0.0.0 adservice.google.dk
+0.0.0.0 adservice.google.fr
+0.0.0.0 adservice.google.com.gt
+0.0.0.0 adservice.google.co.in
+0.0.0.0 adservice.google.co.kr
+0.0.0.0 adservice.google.com.mx
+0.0.0.0 adservice.google.nl
+0.0.0.0 adservice.google.no
+0.0.0.0 adservice.google.com.pe
+0.0.0.0 adservice.google.com.ph
+0.0.0.0 adservice.google.com.pk
+0.0.0.0 adservice.google.pl
+0.0.0.0 adservice.google.ru
+0.0.0.0 adservice.google.com.tr
+0.0.0.0 adservice.google.com.tw
+0.0.0.0 adservice.google.co.uk
+0.0.0.0 adservice.google.vg
+0.0.0.0 adservice.google.com.vn
+0.0.0.0 adservice.google.co.za
+0.0.0.0 ogads-pa.clients6.google.com
+0.0.0.0 ogads-pa.googleapis.com
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 firebaselogging.googleapis.com
+0.0.0.0 firebaselogging-pa.googleapis.com
+0.0.0.0 myphonenumbers-pa.googleapis.com
+0.0.0.0 doubleclick.com
+0.0.0.0 www.doubleclick.com
+0.0.0.0 ad.doubleclick.com
+0.0.0.0 g.doubleclick.com
+0.0.0.0 adclick.g.doublecklick.net
+0.0.0.0 googleads.g.doubleclick.com
+0.0.0.0 doubleclick.net
+0.0.0.0 accounts.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad-emea.doubleclick.net
+0.0.0.0 ff.doubleclick.net
+0.0.0.0 fls.doubleclick.net
+0.0.0.0 5290727.fls.doubleclick.net
+0.0.0.0 8168974.fls.doubleclick.net
+0.0.0.0 8397396.fls.doubleclick.net
+0.0.0.0 g.doubleclick.net
+0.0.0.0 adx.g.doubleclick.net
+0.0.0.0 bid.g.doubleclick.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
+0.0.0.0 pagead.l.doubleclick.net
+0.0.0.0 pagead46.l.doubleclick.net
+0.0.0.0 partnerad.l.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 survey.g.doubleclick.net
+0.0.0.0 dart.l.doubleclick.net
+0.0.0.0 m.doubleclick.net
+0.0.0.0 s0.doubleclick.net
+0.0.0.0 static.doubleclick.net
+
+#油管推脸书P站
+0.0.0.0 ads.youtube.com
+0.0.0.0 fcmatch.youtube.com
+0.0.0.0 an.facebook.com
+0.0.0.0 pixel.facebook.com
+0.0.0.0 ads.twitter.com
+0.0.0.0 ads.x.com
+0.0.0.0 ads-api.x.com
+0.0.0.0 ads-api.twitter.com
+0.0.0.0 ads-bidder-api.twitter.com
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 ads-twitter.com
+0.0.0.0 pixon.ads-pixiv.net
+0.0.0.0 open-pixon.ads-pixiv.net
+0.0.0.0 d.pixiv.org
+0.0.0.0 sh.adingo.jp  #↓P站
+0.0.0.0 dex.advg.jp
+0.0.0.0 y.one.impact-ad.jp
+0.0.0.0 js.mtburn.com
+0.0.0.0 spcnv.i-mobile.co.jp
+0.0.0.0 spdmg-backend.i-mobile.co.jp
+0.0.0.0 spdmg.i-mobile.co.jp
+0.0.0.0 assets.gunosy.com  #↑P站
+0.0.0.0 staticxx.facebook.com
+0.0.0.0 dc.ads.linkedin.com  #领英
+0.0.0.0 syndication.twitter.com
+0.0.0.0 tapi.apkpure.net  #APKpure广告图
+0.0.0.0 t.apkpure.net
+
+#Spotify(音频广告去不掉)
+0.0.0.0 ads.spotify.com
+0.0.0.0 adstudio-assets.scdn.co
+0.0.0.0 audio-ad.spotify.com
+0.0.0.0 enduser.adsrvr.org
+
+#SnapChat
+0.0.0.0 snapads.com
+0.0.0.0 adserver.snapads.com
+0.0.0.0 usc.adserver.snapads.com
+0.0.0.0 adserver.shadow.snapads.com
+0.0.0.0 study.snapads.com
+0.0.0.0 ads.snapchat.com
+0.0.0.0 adsapi.snapchat.com
+0.0.0.0 tr.snapchat.com
+0.0.0.0 tr6.snapchat.com
 
 #——————墙外的广告商——————
 #乱七八糟
@@ -3129,6 +3042,145 @@
 0.0.0.0 powerads.breaktime.com.tw
 0.0.0.0 elads.kocpc.com.tw
 0.0.0.0 a.teads.tv
+0.0.0.0 s.peplle.cn
+0.0.0.0 u3y8v8u4.aucdn.net  #弹出式黄片广告
+0.0.0.0 pttptt.cc  #网页大片黄图广告
+0.0.0.0 ads.adfox.ru
+0.0.0.0 cdn1.inner-active.mobi
+0.0.0.0 cdn2.inner-active.mobi
+0.0.0.0 tes.foisonad.com
+0.0.0.0 t-odx.op-mobile.opera.com
+0.0.0.0 trackes.liftyad.xyz
+0.0.0.0 gdl.youngle.tech
+0.0.0.0 pok.mintegral.net
+0.0.0.0 gdl.news-cdn.site
+0.0.0.0 ad-delivery.net
+
+#Adobe
+0.0.0.0 campaign.adobe.com
+0.0.0.0 mcd-mkt-prod31-lb.campaign.adobe.com
+0.0.0.0 pandoramedia-mkt-prod1-t.campaign.adobe.com
+0.0.0.0 wdpro-mkt-prod2-lb.campaign.adobe.com
+0.0.0.0 geo.adobe.com
+0.0.0.0 adtag.primetime.adobe.com
+0.0.0.0 sstats.adobe.com
+
+#91porn.com
+0.0.0.0 fans.bestvogue.com
+0.0.0.0 bcp.crwdcntrl.net
+
+#亚马逊广告
+0.0.0.0 amazon-adsystem.com
+0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 aax-eu-retail-direct.amazon-adsystem.com
+0.0.0.0 aax-fe.amazon-adsystem.com
+0.0.0.0 aax-fe-pek.amazon-adsystem.com
+0.0.0.0 aax-fe-sin.amazon-adsystem.com
+0.0.0.0 aax-us.amazon-adsystem.com
+0.0.0.0 aax-us-east.amazon-adsystem.com
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 cdn-a.amazon-adsystem.com
+0.0.0.0 fls-eu.amazon-adsystem.com
+0.0.0.0 fls-fe.amazon-adsystem.com
+0.0.0.0 fls-na.amazon-adsystem.com
+0.0.0.0 ir-na.amazon-adsystem.com
+0.0.0.0 mads.amazon-adsystem.com
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 ws-eu.amazon-adsystem.com
+0.0.0.0 ws-na.amazon-adsystem.com
+0.0.0.0 z-eu.amazon-adsystem.com
+0.0.0.0 z-na.amazon-adsystem.com
+#亚马逊
+0.0.0.0 aan.amazon.com
+0.0.0.0 aax-us-east-retail-direct.amazon.com
+0.0.0.0 fls-na.amazon.com
+0.0.0.0 ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
+0.0.0.0 adserver-1277986481.ap-northeast-1.elb.amazonaws.com
+0.0.0.0 ad-server-lb-294150285.ap-southeast-1.elb.amazonaws.com
+0.0.0.0 ads-816899299.ap-southeast-1.elb.amazonaws.com
+0.0.0.0 rw-yieldmo-com-1673518954.ap-southeast-1.elb.amazonaws.com
+0.0.0.0 adservingvpc-1239633584.eu-west-1.elb.amazonaws.com
+0.0.0.0 beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com
+0.0.0.0 prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com
+0.0.0.0 adktracking-1671721947.eu-west-3.elb.amazonaws.com
+0.0.0.0 adn-tktracking-virginia-621472495.us-east-1.elb.amazonaws.com
+0.0.0.0 adserver-2084671375.us-east-1.elb.amazonaws.com
+0.0.0.0 adserver-vpc-alb-0-2072243822.us-east-1.elb.amazonaws.com
+0.0.0.0 adserver-vpc-alb-1-2048135467.us-east-1.elb.amazonaws.com
+0.0.0.0 adserver-vpc-alb-2-1898430250.us-east-1.elb.amazonaws.com
+0.0.0.0 adsk-pnxproxy-prd-1753980530.us-east-1.elb.amazonaws.com
+0.0.0.0 audience-164723144.us-east-1.elb.amazonaws.com
+0.0.0.0 log-collectors-73517960.us-east-1.elb.amazonaws.com
+0.0.0.0 lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com
+0.0.0.0 nova-collector-1192479543.us-east-1.elb.amazonaws.com
+0.0.0.0 prod-ash-beacon-1960876484.us-east-1.elb.amazonaws.com
+0.0.0.0 rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
+0.0.0.0 tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com
+0.0.0.0 tracking-1611167402.us-east-1.elb.amazonaws.com
+0.0.0.0 wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com
+0.0.0.0 ads-b-480313385.us-west-1.elb.amazonaws.com
+0.0.0.0 ads-c-1854119718.us-west-1.elb.amazonaws.com
+0.0.0.0 adserver-vpc-alb-0-2075095491.us-west-2.elb.amazonaws.com
+0.0.0.0 adserver-vpc-alb-1-725730730.us-west-2.elb.amazonaws.com
+0.0.0.0 adserver-vpc-alb-2-553366957.us-west-2.elb.amazonaws.com
+0.0.0.0 adserver-vpc-alb-3-578630024.us-west-2.elb.amazonaws.com
+0.0.0.0 beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com
+0.0.0.0 dco-jads-727222375.us-west-2.elb.amazonaws.com
+0.0.0.0 prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com
+0.0.0.0 rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com
+0.0.0.0 wildcard-ads-448740142.us-west-2.elb.amazonaws.com
+0.0.0.0 huq-query-loggers-europe-west1-32ef7f4bbf54ce27.elb.eu-west-1.amazonaws.com
+0.0.0.0 admarvel.s3.amazonaws.com
+0.0.0.0 advancelocal-adapter-image-uploads.s3.amazonaws.com
+0.0.0.0 ignifyecom.s3.amazonaws.com
+0.0.0.0 incoming-data-sense360.s3.amazonaws.com
+0.0.0.0 nativead.s3.amazonaws.com
+0.0.0.0 surveygizmobeacon.s3.amazonaws.com
+0.0.0.0 later-analytics-reports.s3-accelerate.amazonaws.com
+0.0.0.0 bin5y4muil.execute-api.us-east-1.amazonaws.com
+0.0.0.0 mobileanalytics.us-east-1.amazonaws.com
+0.0.0.0 huq-query-loggers-california-3cec807da3e9dc0d.elb.us-west-1.amazonaws.com
+0.0.0.0 ad-host-backup-america.s3.us-west-1.amazonaws.com
+0.0.0.0 ad-host-backup-asia.s3.ap-southeast-1.amazonaws.com
+0.0.0.0 ad-host-backup-europe.s3.eu-central-1.amazonaws.com
+
+#Unity3D游戏引擎
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 ads.prd.ie.internal.unity3d.com
+0.0.0.0 publisher-event.ads.prd.ie.internal.unity3d.com
+0.0.0.0 ads-privacy-api.prd.mz.internal.unity3d.com
+0.0.0.0 stats.unity3d.com
+0.0.0.0 unityads.unity3d.com
+0.0.0.0 adserver.unityads.unity3d.com
+0.0.0.0 adsx.unityads.unity3d.com
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 auction-banner.unityads.unity3d.com
+0.0.0.0 auction-load.unityads.unity3d.com
+0.0.0.0 cdn.unityads.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 configv2.unityads.unity3d.com
+0.0.0.0 geocdn.unityads.unity3d.com
+0.0.0.0 httpkafka.unityads.unity3d.com
+0.0.0.0 publisher-config.unityads.unity3d.com
+0.0.0.0 publisher-event.unityads.unity3d.com
+0.0.0.0 thind.unityads.unity3d.com
+0.0.0.0 webview.unityads.unity3d.com
+0.0.0.0 events.mz.unity3d.com
+0.0.0.0 ae.iads.unity3d.com
+0.0.0.0 cdn.iads.unitychina.cn
+0.0.0.0 configv2.unityads.unitychina.cn
+0.0.0.0 auction.unityads.unity.cn
+0.0.0.0 publisher-config.unityads.unity.cn
+0.0.0.0 cdn-creatives-tencent-prd.unityads.unitychina.cn
+0.0.0.0 config.unityads.unitychina.cn
+0.0.0.0 gw.mediation.unity3d.com
+0.0.0.0 i-sdk.mediation.unity3d.com
+0.0.0.0 o-sdk.mediation.unity3d.com
 
 #雅虎广告
 0.0.0.0 3p-geo.yahoo.com
@@ -3167,7 +3219,8 @@
 0.0.0.0 m.yap.yahoo.com
 0.0.0.0 pr-bh.ybp.yahoo.com
 0.0.0.0 partnerads.ysm.yahoo.com
-#ADjust
+
+# ADjust
 0.0.0.0 app.adjust.com
 0.0.0.0 atom.adjust.com
 0.0.0.0 events.adjust.com
@@ -3185,7 +3238,7 @@
 0.0.0.0 proton.flurry.com
 0.0.0.0 www.flurry.com
 0.0.0.0 flurry.cachefly.net
-#TrAdPlus
+# TrAdPlus
 0.0.0.0 www.tradplusad.com
 0.0.0.0 a.tradplusad.com
 0.0.0.0 api.tradplusad.com
@@ -3212,7 +3265,7 @@
 0.0.0.0 test-developer.tradplusad.com
 0.0.0.0 test-event.tradplusad.com
 0.0.0.0 web-event.tradplusad.com
-#Crwdcntrl
+# Crwdcntrl
 0.0.0.0 ad.crwdcntrl.net
 0.0.0.0 bcp.crwdcntrl.net
 0.0.0.0 meez.crwdcntrl.net
@@ -3222,7 +3275,7 @@
 0.0.0.0 td.crwdcntrl.net
 0.0.0.0 td2.crwdcntrl.net
 0.0.0.0 ts.crwdcntrl.net
-#Adnxs
+# Adnxs
 0.0.0.0 lax1-ib.adnxs.com
 0.0.0.0 crcdn01.adnxs.com
 0.0.0.0 crcdn09.adnxs.com
@@ -3263,7 +3316,7 @@
 0.0.0.0 sin3-ib.adnxs.com
 0.0.0.0 mediation.adnxs.com  #据说是outlook的置顶广告，然而lite的还在
 0.0.0.0 msft-ssp.adnxs.com
-#AppLovin
+# AppLovin
 0.0.0.0 prod-mediate-events.applovin.com
 0.0.0.0 prod-ms4.applovin.com
 0.0.0.0 dash.applovin.com
@@ -3289,7 +3342,7 @@
 0.0.0.0 www.applovin.com
 0.0.0.0 a.applovin.com
 0.0.0.0 applovin.com
-#Taboola
+# Taboola
 0.0.0.0 hk-api.taboola.com
 0.0.0.0 hk-trc-events.taboola.com
 0.0.0.0 ads.taboola.com
@@ -3338,7 +3391,7 @@
 0.0.0.0 api.taboola.com
 0.0.0.0 match.taboola.com
 0.0.0.0 www.taboola.com
-#Inmobi
+# Inmobi
 0.0.0.0 go.inmobi.com
 0.0.0.0 uat-demo.pulse.inmobi.com
 0.0.0.0 iam.inmobi.com
@@ -3392,7 +3445,7 @@
 0.0.0.0 config.inmobi.cn
 0.0.0.0 www.inmobi.cn
 0.0.0.0 api.w.inmobi.cn
-#Branch营销
+# Branch营销
 0.0.0.0 www.branch.io
 0.0.0.0 api.branch.io
 0.0.0.0 api2.branch.io
@@ -3402,7 +3455,7 @@
 0.0.0.0 dev.branch.io
 0.0.0.0 vulcan1.branch.io
 0.0.0.0 vulcan5.branch.io
-#AppsFlyer营销
+# AppsFlyer营销
 0.0.0.0 launches.appsflyersdk.com
 0.0.0.0 conversions.appsflyersdk.com
 0.0.0.0 gcdsdk.appsflyersdk.com
@@ -3453,7 +3506,7 @@
 0.0.0.0 hq1.appsflyer.com
 0.0.0.0 track.appsflyer.com
 0.0.0.0 www.appsflyer.com
-#SuperSonicAds
+# SuperSonicAds
 0.0.0.0 ow-gateway.supersonicads.com
 0.0.0.0 ssp.supersonicads.com
 0.0.0.0 is-gateway.supersonicads.com
@@ -3468,6 +3521,24 @@
 0.0.0.0 ua.supersonicads.com
 0.0.0.0 www.supersonicads.com
 0.0.0.0 outcome.supersonicads.com
+# Mtgglobals
+0.0.0.0 cdn-adn-https.mtgglobals.com
+0.0.0.0 configure-tcp-android.mtgglobals.com
+0.0.0.0 hybird.mtgglobals.com
+0.0.0.0 mtg-h5.mtgglobals.com
+0.0.0.0 observe-tcp.mtgglobals.com
+0.0.0.0 mtg-native.mtgglobals.com
+0.0.0.0 play.mtgglobals.com
+0.0.0.0 nl-gcp-ad-track-sdk-europe-west4-c.mtgglobals.com
+0.0.0.0 nl-new-cdn-ssplib-europe-west4-b-hb.mtgglobals.com
+0.0.0.0 nl-new-cdn-ssplib-europe-west4-c-hb.mtgglobals.com
+# Vungle
+0.0.0.0 ads.api.vungle.com
+0.0.0.0 adx.ads.vungle.com
+0.0.0.0 config.ads.vungle.com
+0.0.0.0 events.ads.vungle.com
+0.0.0.0 logs.ads.vungle.com
+0.0.0.0 cdn-lb.vungle.com
 
 0.0.0.0 cm.adkmob.com
 0.0.0.0 ssdk.adkmob.com
@@ -3498,9 +3569,7 @@
 0.0.0.0 midas-tracker.hellay.net
 0.0.0.0 adcs-ap.myappsget.com
 0.0.0.0 adx-tk.rayjump.com
-0.0.0.0 events.ads.vungle.com
 0.0.0.0 adx.apiok.net
-0.0.0.0 ads.api.vungle.com
 0.0.0.0 net.rayjump.com
 0.0.0.0 ad.hpplay.cn
 0.0.0.0 adc.hpplay.cn
@@ -3514,20 +3583,16 @@
 0.0.0.0 adx-os.toponadss.com
 0.0.0.0 api.toponadss.com
 0.0.0.0 datk.toponadss.com
-0.0.0.0 adx.ads.vungle.com
-0.0.0.0 config.ads.vungle.com
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 mobile.yandexadexchange.net
 0.0.0.0 san.myadssupport.com
-0.0.0.0 auction.unityads.unity.cn
-0.0.0.0 publisher-config.unityads.unity.cn
-0.0.0.0 cdn-creatives-tencent-prd.unityads.unitychina.cn
-0.0.0.0 config.unityads.unitychina.cn
 0.0.0.0 dns.m.sm.cn
 0.0.0.0 log.m.sm.cn
 0.0.0.0 c.bidtoolads.com
 0.0.0.0 api.yfanads.com
-0.0.0.0 s.peplle.cn
+0.0.0.0 nl-new-cdn-ssplib-europe-west4-b-hb.rayjump.com
+#0.0.0.0 yandex.ru 【vpnify】底部横幅和弹窗，看上去会误杀很多俄罗斯的yandex网站的内容
+
 
 #=========各大广告联盟=========
 #个推广告
@@ -4750,7 +4815,7 @@
 0.0.0.0 www.tingyun.com
 #杯子广告
 0.0.0.0 api-htp.beizi.biz
-#0.0.0.0 sdk-api.beizi.biz  #据说123云盘卡开屏？反正我测试都没卡过。
+0.0.0.0 sdk-api.beizi.biz  #据说123云盘卡开屏？反正我测试都没卡过。
 0.0.0.0 sdk.beizi.biz
 0.0.0.0 sdk-event.beizi.biz
 0.0.0.0 sdk-ipv6.beizi.biz
@@ -4796,6 +4861,10 @@
 0.0.0.0 img.adprod.cn
 0.0.0.0 rta.adprod.cn
 0.0.0.0 ocpx.mktad.cn
+0.0.0.0 api.quminglemei.com
+0.0.0.0 data.quminglemei.com
+0.0.0.0 api.ctjpqg.cn
+0.0.0.0 api.tsyouto.cn
 #枫岚互联-广告营销
 0.0.0.0 adx.maplehaze.cn
 0.0.0.0 dsp.maplehaze.cn
@@ -5066,11 +5135,20 @@
 0.0.0.0 s15.cnzz.com
 0.0.0.0 s96.cnzz.com
 0.0.0.0 www.cnzz.com
-#美数科技
+#美数科技（腾讯手游加速器开屏用，AM图标）
 0.0.0.0 s.1rtb.net
 0.0.0.0 sdk.1rtb.net  #pu口袋校园
 0.0.0.0 sdk-demo.1rtb.net
 0.0.0.0 zlsdk.1rtb.net
+0.0.0.0 adn.1rtb.com
+0.0.0.0 cdn.1rtb.com
+0.0.0.0 office.1rtb.com
+0.0.0.0 ne.1rtb.com
+0.0.0.0 sdk.1rtb.com
+0.0.0.0 dsp.1rtb.com
+0.0.0.0 agent-01.1rtb.com
+0.0.0.0 cm.1rtb.com
+0.0.0.0 ssp.1rtb.com
 #软告移动广告交易平台
 0.0.0.0 monitor.ads.8le8le.com
 0.0.0.0 netease.jump.8le8le.com
@@ -5212,6 +5290,7 @@
 0.0.0.0 dc.sigmob.cn
 0.0.0.0 n.sigmob.cn
 0.0.0.0 rtbcallback.sigmob.cn
+0.0.0.0 tm.sigmob.cn
 0.0.0.0 track.sigmob.cn
 0.0.0.0 tracktp.sigmob.cn
 0.0.0.0 dash.sigmob.com
@@ -5235,7 +5314,37 @@
 0.0.0.0 dc.adintl.cn
 0.0.0.0 www.adintl.cn
 0.0.0.0 act.adintl.cn
-
+0.0.0.0 sdk.zhangyuyidong.cn  #乐橙开屏广告
+0.0.0.0 sdklog.zhangyuyidong.cn
+#汇量科技
+0.0.0.0 check.rayjump.com
+0.0.0.0 lazy.rayjump.com
+0.0.0.0 nl-new-cdn-ssplib-europe-west4-c-hb.rayjump.com
+0.0.0.0 policy.rayjump.com
+#广东万唯_移动短视频广告
+0.0.0.0 ag-tk.oneway.mobi
+0.0.0.0 rta-bj.oneway.mobi
+0.0.0.0 diagnosis.oneway.mobi
+0.0.0.0 tracking.oneway.mobi
+0.0.0.0 rta.oneway.mobi
+0.0.0.0 adm.oneway.mobi
+0.0.0.0 dn.oneway.mobi
+0.0.0.0 tl.oneway.mobi
+0.0.0.0 mp.oneway.mobi
+0.0.0.0 bsy-feedcdn.oneway.mobi
+0.0.0.0 bsy0-feedcdn.oneway.mobi
+0.0.0.0 v2sso.oneway.mobi
+0.0.0.0 feed-oss.oneway.mobi
+0.0.0.0 ads.oneway.mobi
+0.0.0.0 news.oneway.mobi
+0.0.0.0 developer.oneway.mobi
+0.0.0.0 cdn.oneway.mobi
+0.0.0.0 www.oneway.mobi
+0.0.0.0 ads.oway.mobi
+0.0.0.0 tl.oway.mobi
+0.0.0.0 track.oway.mobi
+0.0.0.0 owads.audioadx.com
+0.0.0.0 owtk.audioadx.com
 
 #各种乱七八糟的广告商、广告联盟
 0.0.0.0 tk.vlion.cn
@@ -5356,7 +5465,6 @@
 0.0.0.0 mmjs.adutp.com
 0.0.0.0 ymjs.adutp.com  #从网易号网页抓出，广告位。
 0.0.0.0 ad.daztoutiao.com
-0.0.0.0 admonitor-feedback.cn-hangzhou.log.aliyuncs.com  #从菜鸟
 0.0.0.0 ads.api.fakeloc.cc  #从fake location
 0.0.0.0 trk.bid-algorix.cn
 0.0.0.0 xyz.bid-algorix.cn
@@ -5383,9 +5491,7 @@
 0.0.0.0 adapi.pandabus.cn
 0.0.0.0 appversion.115.com #115盘更新
 0.0.0.0 autoupdate.tantanapp.com  #探探更新？
-0.0.0.0 ad.cyapi.cn  #彩云天气
 0.0.0.0 adsdk.idmzj.com  #动漫之家
-0.0.0.0 fcard.api.moji.com  #墨迹天气顶部横幅
 0.0.0.0 dsp-ad.yy.com
 0.0.0.0 splash.yy.com
 0.0.0.0 ad-sdk.lenovomm.com
@@ -5433,7 +5539,6 @@
 0.0.0.0 in.appcenter.ms  #好像是一些APP的更新，据说还和隐私有关。
 0.0.0.0 codepush.appcenter.ms  #隐私
 0.0.0.0 api-v3.mentamob.com
-0.0.0.0 ssp.1rtb.com
 0.0.0.0 iflyad.bjb.openstorage.cn
 0.0.0.0 mb.readke.com  #网页锐客江湖-锐客网的所谓验证机器人实际广告弹窗跳转到快手。
 0.0.0.0 adsmartget.guangtuikeji.com
@@ -5452,3 +5557,6 @@
 0.0.0.0 sdk.shuhonggz.com
 0.0.0.0 stat.shuhonggz.com
 0.0.0.0 stg.shuhonggz.com
+0.0.0.0 adshows.21cn.com  #天翼云盘抓出来的，有他没他都不影响开屏、弹窗广告
+0.0.0.0 tk2.xfadx.com  #安兔兔
+0.0.0.0 t.ag.b9ad.com  #安兔兔
