@@ -1,0 +1,1 @@
+为配合AdGuard Home的NXDOMAIN拦截模式，删除host重定向加速相关
